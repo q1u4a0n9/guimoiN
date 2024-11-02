@@ -92,22 +92,12 @@
     
         </div>
         <!-- them button-->
-        <button id="soundButton" onclick="toggleMute()">
-            <i id="volumeIcon" class="fas fa-volume-up"></i>
-        </button>
-        <audio id="audio" src="index.mp3"  muted autoplay></audio>
+        
+        <audio id="audio" src="index.mp3"  controls></audio>
     
         
     
     
-        <script>
-          function toggleMute() {
-                var audio = document.getElementById('audio');
-                var volumeI document.addEventListener('click', function() {
-var audio = document.getElementById("audio");
-audio.muted = false;
-audio.play();
-});
-        </script>
+ 
 </body>
 </html>
