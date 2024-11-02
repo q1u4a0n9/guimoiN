@@ -6,8 +6,8 @@ body {
 }
 .box1 {
     
-    width: 240px;
-    height: 490px;
+    width: 300px;
+    height: 530px;
     border: 6px ridge;
     
     border-color: #43465B;
@@ -27,7 +27,7 @@ body {
     text-shadow: 4px 4px 2px black;
   }
  .box2 {
-    font-size: 20px;
+    font-size: 26px;
     font-weight: 1000;
  }
 /* phan them css cua hoa sakura*/
