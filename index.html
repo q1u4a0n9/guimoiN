@@ -95,26 +95,19 @@
         <button id="soundButton" onclick="toggleMute()">
             <i id="volumeIcon" class="fas fa-volume-up"></i>
         </button>
-        <audio id="audio" src="index.MP3"  autoplay></audio>
+        <audio id="audio" src="index.mp3"  muted autoplay></audio>
     
         
     
-    <
+    
         <script>
           function toggleMute() {
                 var audio = document.getElementById('audio');
-                var volumeIcon = document.getElementById('volumeIcon');
-        
-                if (audio.muted) {
-                    audio.muted = false;
-                    volumeIcon.classList.remove('fa-volume-mute');
-                    volumeIcon.classList.add('fa-volume-up');
-                } else {
-                    audio.muted = true;
-                    volumeIcon.classList.remove('fa-volume-up');
-                    volumeIcon.classList.add('fa-volume-mute');
-                }
-              }
+                var volumeI document.addEventListener('click', function() {
+var audio = document.getElementById("audio");
+audio.muted = false;
+audio.play();
+});
         </script>
 </body>
 </html>
